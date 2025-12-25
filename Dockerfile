@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-CMD ["npm","start"]
+#CMD ["npm","start"]
 
 FROM nginx
 
